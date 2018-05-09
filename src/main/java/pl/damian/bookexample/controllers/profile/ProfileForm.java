@@ -22,7 +22,8 @@ public class ProfileForm {
     private LocalDate birthDate;
 
     @NotEmpty
-    private List<String> tastes = new ArrayList<>();
+    private static List<String> tastes = new ArrayList<>();
+
 
     public String getTwitterHandle() {
         return twitterHandle;
